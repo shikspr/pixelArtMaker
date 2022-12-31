@@ -15,7 +15,7 @@ function makeGrid(){
 
         for( let c=0; c < addColumn; c++ ){
 
-            var cell = document.createElement("td");
+            let cell = document.createElement("td");
 
             row.appendChild(cell);
 
